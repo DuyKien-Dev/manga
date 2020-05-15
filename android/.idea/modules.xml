@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/admob_flutter-0.3.4/android/admob_flutter.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/admob_flutter-0.3.4/android/admob_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.5.0/android/path_provider.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.5.0/android/path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratedialog/ratedialog.iml" filepath="$PROJECT_DIR$/ratedialog/ratedialog.iml" />
+      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.4+8/android/shared_preferences.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.4+8/android/shared_preferences.iml" />
+    </modules>
+  </component>
+</project>

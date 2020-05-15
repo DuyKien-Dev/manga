@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleY="0"
+        android:scaleX="0"
+        android:alpha="0"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ribonl"
+            android:layout_marginLeft="5dp"
+            android:layout_above="@+id/btnSubmit"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ribonr"
+            android:layout_marginRight="5dp"
+            android:layout_above="@+id/btnSubmit"/>
+
+        <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+           android:background="@drawable/layout_bg"
+           android:layout_marginBottom="30dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/head_bg">
+              <ImageView
+                  android:id="@+id/btnCacncel"
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:src="@drawable/cancel"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="10dp"
+                  android:alpha="0.5"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="60dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2c3e50"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/Do_you_love_this_app"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate_for_me"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <com.example.ratedialog.RotationRatingBar
+                    android:id="@+id/rotationratingbar_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    android:gravity="center"
+                    android:layout_marginTop="16dp"
+                   >
+
+                </com.example.ratedialog.RotationRatingBar>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+       </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/submit_bg"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:text="@string/rate_now"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/ratingFace"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/favorite"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

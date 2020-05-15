@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RatingBarAttributes">
+        <attr name="numStars" format="integer" />
+        <attr name="rating" format="float" />
+        <attr name="starPadding" format="integer" />
+        <attr name="drawableEmpty" format="reference" />
+        <attr name="drawableFilled" format="reference" />
+        <attr name="touchable" format="boolean" />
+        <attr name="clearRatingEnabled" format="boolean" />
+        <attr name="starWidth" format="dimension" />
+        <attr name="starHeight" format="dimension" />
+    </declare-styleable>
+</resources>
