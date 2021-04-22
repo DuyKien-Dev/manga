@@ -1,7 +1,3 @@
 {
-    "admob": "ca-app-pub-3940256099942544/1033173712",
-    "admob2":"",
-    "ratio":100,
-    "ratioAds":100,
-    "fan": ""
+    "close": true
 }
