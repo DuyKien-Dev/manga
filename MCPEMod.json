@@ -1,3 +1,13 @@
 {
-    "close": true
+    "close": true,
+    "countries": [
+"US",
+"CA",
+"AU",
+"UK",
+"GB",
+"DE",
+"PL",
+"IT"
+]
 }
