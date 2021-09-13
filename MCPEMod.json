@@ -1,5 +1,6 @@
 {
     "close": true,
+    "billing": true,
     "countries": [
 "US",
 "CA",
