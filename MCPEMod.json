@@ -1,5 +1,13 @@
 {
     "close": true,
     "billing": true,
-    "countries": []
+    "countries": [
+    "US",
+"CA",
+"AU",
+"UK",
+"GB",
+"DE",
+"PL",
+"IT"]
 }
