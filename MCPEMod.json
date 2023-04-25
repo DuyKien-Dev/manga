@@ -1,5 +1,6 @@
 {
     "close": true,
+    "interAdmob": "ca-app-pub-3940256099942544/1033173712",
     "billing": true,
     "countries": ["US",
 "CA",
